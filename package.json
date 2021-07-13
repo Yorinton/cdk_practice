@@ -23,6 +23,7 @@
   "dependencies": {
     "@aws-cdk/aws-apigateway": "^1.112.0",
     "@aws-cdk/aws-dynamodb": "^1.112.0",
+    "@aws-cdk/aws-ecs-patterns": "^1.112.0",
     "@aws-cdk/aws-iam": "^1.112.0",
     "@aws-cdk/aws-lambda": "^1.112.0",
     "@aws-cdk/core": "1.112.0",

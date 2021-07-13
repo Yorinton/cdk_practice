@@ -2,6 +2,7 @@
 import 'source-map-support/register';
 import * as cdk from '@aws-cdk/core';
 import { CdkPracticeStack } from '../lib/cdk_practice-stack';
+import { CdkPracticeEcsStack } from '../lib/cdk_practice_ecs-stack';
 
 const app = new cdk.App();
 new CdkPracticeStack(app, 'CdkPracticeStack', {
@@ -19,3 +20,5 @@ new CdkPracticeStack(app, 'CdkPracticeStack', {
 
   /* For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html */
 });
+
+new CdkPracticeEcsStack(app, 'CdkPracticeEcsStack', {});
